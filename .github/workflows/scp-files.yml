@@ -24,7 +24,7 @@ jobs:
       with:
         host: ${{ secrets.REMOTE_HOST }}
         username: ${{  secrets.REMOTE_USER }}
-        key: ${{  secrets.SSH_KEYS }}
+        key: ${{  secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
         rm: true
         source: "build/"
