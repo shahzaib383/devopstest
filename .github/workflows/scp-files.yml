@@ -27,6 +27,5 @@ jobs:
         username: ${{  secrets.REMOTE_USER }}
         key: ${{  secrets.SSH_KEY }}
         port: 22
-        rm: true
-        source: "build.tar"
+        source: "."
         target: "${{ secrets.REMOTE_DIR }}"
