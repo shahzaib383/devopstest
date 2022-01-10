@@ -26,7 +26,6 @@ jobs:
         host: ${{ secrets.REMOTE_HOST }}
         username: ${{  secrets.REMOTE_USER }}
         key: ${{  secrets.SSH_KEY }}
-        passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
         port: 22
         rm: true
         source: "build.tar"
