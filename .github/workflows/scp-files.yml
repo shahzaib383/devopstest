@@ -21,6 +21,5 @@ jobs:
         username: ${{  secrets.REMOTE_USER }}
         key: ${{  secrets.SSH_KEY }}
         port: 22
-        rm: true
         source: "index.html"
         target: "/var/www/html/"
